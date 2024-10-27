@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Ripple from "./components/ui/ripple";
 import { VelocityScroll } from "./components/ui/scroll-based-velocity";
 import SparklesText from "./components/ui/sparkles-text";
-import Footer from "./components/Footer"; // Import your Footer component
+
 
 const storeLinks = [
   { name: "Amazon", url: "https://www.amazon.in/yourstorelink" },
