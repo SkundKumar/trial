@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Ripple from "./components/ui/ripple";
 import { VelocityScroll } from "./components/ui/scroll-based-velocity";
 import SparklesText from "./components/ui/sparkles-text";
-
+import logo from "./assets/logo.png";
 
 const storeLinks = [
   { name: "Amazon", url: "https://www.amazon.in/yourstorelink" },
@@ -17,7 +17,7 @@ export default function App() {
       {/* Navbar */}
       <nav className="bg-green-100 flex items-center justify-between w-screen ">
         <div className="flex items-center">
-          <img src="/src/assets/logo.png" alt="Logo" className="h-40 " />
+          <img src= {logo} alt="Logo" className="h-40 " />
           <span className="text-2xl font-bold"></span>
         </div>
         <ul className="flex space-x-4 p-10 font-orbitron font-semibold text-green-900">
