@@ -19,6 +19,9 @@ export default {
 			tiny5: ['tiny5', 'sans-serif'],
 			plaster: ['Plaster', 'sans-serif'],
 			offside: ['Offside', 'sans-serif'],
+			yatra: ['Yatra One', 'sans-serif'],
+			gajraj: ['Gajraj One', 'sans-serif'],
+			rozha: ['Rozha One', 'sans-serif']
 		},
   		colors: {
   			background: 'hsl(var(--background))',
