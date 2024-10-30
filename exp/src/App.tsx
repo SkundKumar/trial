@@ -28,7 +28,7 @@ export default function App() {
 
       {/* Initial Ripple Page */}
       <div className="relative flex h-screen w-full flex-col items-center justify-center overflow-hidden bg-green-100">
-        <p className="z-10 font-whitespace-pre-wrap text-center text-7xl font-rozha font-semibold tracking-tighter text-green-900">
+        <p className="z-10 font-whitespace-pre-wrap text-center text-6xl font-rozha font-semibold tracking-tighter text-green-900">
         बाँसRoot
         </p>
         <Ripple />
